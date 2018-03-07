@@ -30,7 +30,7 @@ controllersAdmin.controller( 'products' , [ '$scope' , '$http' , function( $scop
 
 }]);
 
-
+//changes for git testing
 controllersAdmin.controller( 'productEdit' , [ '$scope' , '$http' , '$routeParams' , 'FileUploader', '$timeout', function( $scope , $http , $routeParams , FileUploader, $timeout ){
 
 	var productId = $routeParams.id;
